@@ -94,8 +94,11 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     color: #bdbdbd;
     font-weight: 600px;
-    padding:  7px;
+    padding:  9px;
     transition: 0.2s ease-in-out ;
+    text-shadow: 1px 1px 1px #00000088,
+    1px 15px 25px rgba(16,16,16,0.2),
+    1px 20px 30px rgba(16,16,16,0.4);
 
 }
 .ta-navbar ul li a:hover {
@@ -107,31 +110,27 @@ body{
 }
 
 .ta-active{
-    border-radius: 8px;
+    border-radius: 15px ;
     background-color: #ffffff17;
-    text-shadow: 1px 1px 1px #00000088,
-    1px 15px 25px rgba(16,16,16,0.2),
-    1px 20px 30px rgba(16,16,16,0.4);
-    
 }
 
 .ta-login-signup ul{
     position: absolute;
     right: 0;
-    margin: 0 10px 0 0;
+    margin: 0 15px 0 0;
     justify-content: space-around;
     display: flex;
     align-items: center;
     border-radius: 15px;
-    padding:20px 5px;
-   width: 200px;
+    padding:20px 0px;
+    width: 200px;
 }
 .ta-login-signup ul li{
     list-style: none; 
 
 }
 .ta-login-signup ul li a{
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Josefin Sans', sans-serif;
     color:  #f2c600;
     font-weight: 600px;
@@ -140,7 +139,7 @@ body{
 }
 
 .ta-login-signup ul li a:hover{
-text-decoration: none;
+    text-decoration: none;
 }
 .modal{
     
@@ -149,26 +148,27 @@ text-decoration: none;
     background-color: #f2c600;
 }
 .ta-row {
-    position: fixed;
+
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     float: left;
-    background-color: #ffffff13;
     border-radius: 8px;
-    padding:20px 5px 3px 5px;
-    margin-top: 400px;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgba(180, 183, 189, 0.103) 0px 0px 0px 1px inset;
+    padding: 15px  ;
+    margin-left: 15px;
+   
+   
   }
 
   
 .ta-row ul {
     list-style: none;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 9px;
     padding: 0;
+    margin: 0;
   }
   
   .ta-row a {
@@ -178,7 +178,7 @@ text-decoration: none;
     text-align: center;
     border-radius: 50%;
     background-color: #02020285; 
-    color: #bdbdbd;
+    color: #f2c600;
     display: block;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   }
@@ -479,7 +479,8 @@ text-decoration: none;
 
 .ta-login-signup ul {
     justify-content: flex-end;
-    margin: 0;
+    margin-right: 10px;
+    padding: 15px 0;
 }
 
 
@@ -488,7 +489,10 @@ text-decoration: none;
 }
 
 
-
+.ta-row {
+    padding: 12px 0;
+    margin-left: 10px;
+  }
 
 
 
