@@ -25,6 +25,14 @@ body{
     margin: 0 auto;
   }
 
+  h4{
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  p{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0 !important;
+  }
+
 /* global-section-end */
 
 /* navbar-start */
@@ -53,17 +61,20 @@ body{
     height: 600px;
 }
 
+
 .ta-navbar{
-    width: 100%;
+
     max-width: 900px;
+    width: 100%;
     margin: 0 auto;
     background-color: #1010107c;
-    padding: 20px;
+    padding: 15px;
     border-radius:  0 0 20px 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .ta-navbar ul{
+    
     display: flex;
     justify-content: space-around;
     padding: 0;
@@ -103,6 +114,7 @@ body{
     1px 20px 30px rgba(16,16,16,0.4);
     
 }
+
 .ta-login-signup ul{
     position: absolute;
     right: 0;
@@ -129,6 +141,12 @@ body{
 
 .ta-login-signup ul li a:hover{
 text-decoration: none;
+}
+.modal{
+    
+}
+.modal-content{
+    background-color: #f2c600;
 }
 .ta-row {
     position: fixed;
@@ -182,7 +200,7 @@ text-decoration: none;
 }
 
 .ta-logo{
-  
+    margin-top: 60px;
     margin-bottom: 30px;
     display: flex;
     justify-content: space-around;
@@ -312,15 +330,20 @@ text-decoration: none;
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
+    margin-top: 100px;
 }
 .ta-play-now-section-text-and-btn{
     background-color:  #161616;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    border-radius: 10px;
 }
+
 .ta-play-now-section-text{
     display: flex;
     flex-direction: column;
-    
-    padding: 20px;
+    padding-right: 30px;
 }
 .ta-play-now-section-text h4{
     font-family: 'Josefin Sans', sans-serif;
@@ -356,11 +379,11 @@ text-decoration: none;
     font-weight: 700;
     box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset ,rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   }
+  
 .ta-shop-now-btn{
     font-family: 'Poppins', sans-serif;
-    text-decoration: none;
     font-weight: 700;
-    padding: 15px 20px;
+    padding: 13px 50px;
     border-radius: 10px;
     text-align: center;
     cursor: pointer;
@@ -368,10 +391,10 @@ text-decoration: none;
     color: #f8f8ff;
     background-color: #f2c600;
     border-radius: 6px;
-    font-size: 25px;
-    transition: .3s ease-in-out;
+    font-size: 2;
+    transition: 0.3s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset ,rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  }
+}
   
   .ta-shop-now-btn:hover {
     background-color: #bdbdbd;
@@ -379,6 +402,11 @@ text-decoration: none;
     font-weight: 700;
     box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset ,rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   }
+  .ta-shop-now-btn-text h4,p{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+  }
+
 /* navbar-end */
 
 /* latest-update-start */
@@ -395,7 +423,7 @@ text-decoration: none;
 
 
 .ta-letest-update-text h2{
-    font-family: 'Josefin Sans', sans-serif;
+     font-family: 'Josefin Sans', sans-serif;
     color: #f2c600;
 }
 
